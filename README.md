@@ -225,7 +225,7 @@ return example:
     "success": true
 }
 ```
-MANAGEMENT 'http://127.0.0.1:5000/microservice/management/log'
+MANAGEMENT `http://127.0.0.1:5000/microservice/management/log`
 - Triggers management record keeping
 - Providing information on actions taken
 
