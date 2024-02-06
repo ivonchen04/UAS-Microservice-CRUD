@@ -228,7 +228,24 @@ contoh return:
     "success": true
 }
 ```
+MANAGEMENT `http://127.0.0.1:5000/microservice/management/log`
+- Memicu pencatatan manajemen
+- Memberikan informasi tentang tindakan yang diambil
 
+return example:
+
+```
+{
+  {
+    "status": "success",
+    "message": "Management log triggered successfully",
+    "data": {
+        "log_id": 123,
+        "timestamp": "2024-02-06T12:34:56Z",
+        "message": "Management log triggered"
+    }
+}
+}
 ### Error Handling
 Ada dua penangan untuk error/kesalahan. Kesalahan mengembalikan objek JSON dalam format berikut:
 ```
