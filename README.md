@@ -1,5 +1,5 @@
 # Documentation
-Microservice login is a microservice project with REST API for login, CRUD on users table, and user access management (Role: Admin, Member) built on Python and Flask. This project was created to complete the Midterm Exam project of Pemrograman PL SQL. 
+Microservice login is a microservice project with REST API for login, CRUD on users table, and user access management (Role: Admin, Member) built on Python and Flask. This project was created to complete the End-Semester Exam project of Programming PL SQL. 
 
 This project leverages AES 256 to encrypt user data such as email and password. So, email and password will be encrypted first before being saved on the database. About the encryption and decryption function processes, please take a look at the [microservice-login/encryption.py](https://github.com/ivonchen04/UTS-Microservice.CRUD-API-PL-SQL-UNSIA/blob/main/encryption.py) file.
 
